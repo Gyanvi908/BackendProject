@@ -9,8 +9,8 @@ passport.use(
   new GoogleStrategy(
     {
       clientID:
-        "1096204226532-ktn75c7brhf7vt6ugs2na30ptg3rhkod.apps.googleusercontent.com",
-      clientSecret: "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",
+        "1053208910957-ootn0lhaamdkprrhqnibu4pttcav727h.apps.googleusercontent.com",
+      clientSecret: "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",
       callbackURL: "/auth/google/callback",
     },
     async (accessToken, refreshToken, profile, done) => {
